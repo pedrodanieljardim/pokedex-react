@@ -1,0 +1,53 @@
+@font-face {
+    font-family: FreeSans;
+    src: url(../fonts/FreeSans.ttf);
+  }
+
+* {
+    text-align: center;
+    background-color: orange;
+    font-family: FreeSans;
+    color: black;
+}
+
+.logo{
+    width: auto;
+    padding: 40px;
+}
+
+body{
+    height: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box{
+    border: 2px solid orange;
+    display: inline-block;
+    padding: 4px;
+    width: 80%;
+}
+
+.search{
+    width: 50%;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.button{
+    background: royalblue;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
