@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Pokedex from '../src/main/Pokedex';
+import SearchPage from '../src/pages/search/SearchPage';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Pokedex />
+    <SearchPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
